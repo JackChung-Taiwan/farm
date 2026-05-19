@@ -1,1 +1,0 @@
-function askAI(){const q=document.getElementById("question").value;const answers={water:"依目前濕度 68% 與明日降雨預測，建議今天少量補水，避免根部過濕。",ice:"冰花適合溫和日照與穩定水質，建議維持 pH 6.0 至 6.5，並避免高溫直曬。",weather:"未來 24 小時若高溫超過 30°C，葉菜可能萎凋，建議啟動遮光與循環水降溫。",crop:"目前適合栽種萵苣、青江菜、九層塔與冰花，可依市場需求選擇高單價作物。"};document.getElementById("answer").textContent=answers[q];}
